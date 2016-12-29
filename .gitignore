@@ -1,0 +1,7 @@
+*.suo
+*.tlog
+*.log
+ComExampleServer/x64/
+Debug/
+x64/
+*.sdf

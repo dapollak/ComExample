@@ -1,0 +1,5 @@
+EXPORTS
+	DllGetClassObject=DllGetClassObject
+    DllCanUnloadNow=DllCanUnloadNow
+	DllRegisterServer=DllRegisterServer
+	DllUnregisterServer=DllUnregisterServer

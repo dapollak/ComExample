@@ -1,0 +1,22 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(F175F8EF-A526-4A47-A702-48BCA3010ED5),
+	object,
+	pointer_default(unique)
+]
+interface IExample : IUnknown
+{
+	HRESULT exampleMethod([in] int n);
+}
+
+[uuid(5BE528F4-5361-40A9-A189-CBDD1DA24071)]
+coclass ExampleObject { 
+	interface IExample;
+}
+
+[uuid(2AC54759-D78A-42CD-B94B-B1A23ED529A3)]
+coclass ExampleObjectFactory {
+	interface IClassFactory;
+}
